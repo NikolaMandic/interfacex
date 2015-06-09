@@ -1,5 +1,5 @@
-function ifix(namespace,iface){
- var self=ifix;
+function i(namespace,iface){
+ var self=i;
  debugger;
  function isFunction(functionToCheck) {
    var getType = {};
