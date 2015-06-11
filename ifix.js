@@ -32,3 +32,4 @@ function i(namespace,iface){
  }
 
 };
+window.i=i;
