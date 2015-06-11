@@ -28,7 +28,7 @@ function i(namespace,iface){
  if( typeof iface !== "undefined"){
    init(iface);
  }else{
-   return self.__proto__.ifaces[namespace]();
+   return self.__proto__.ifaces[namespace];
  }
 
 };
