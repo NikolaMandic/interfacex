@@ -4,4 +4,7 @@ expose interface
 use interface        
 `$(document).trigger("anon.f","data");`          
 or       
-`ifix("anon.f")("data");`
+`ifix("anon.f")("data");`        
+
+blog post explaining it          
+http://nikolamandic.me/?p=160
