@@ -19,6 +19,7 @@ function i(namespace,iface){
      self.__proto__.ifaces[namespace+"."+attr]=(function(){ return obj[attr]; }) ;
        
    }
+   self.__proto__.ifaces[namespace]=(function(){ return obj; }) ;
  }
  function init(object){  
    for(var index in object) { 
